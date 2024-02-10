@@ -1,0 +1,76 @@
+.color{
+    color: white;
+}
+.color:hover{
+    color: aquamarine;
+}
+.space{
+    width: 25%;
+}
+.bkg {
+    background-image: url(photo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%; 
+
+}
+.AVE {
+    font-size: 350px; 
+    justify-content: center;  
+    margin-left: 80px;  
+}
+.b1 {
+    color: black;
+    font-size: 20px;
+}
+.b1:hover{
+    color: aqua;
+}
+.C1{
+    background-color: lightgray;
+}
+/* FOOTER */
+.content{
+    width: 20%; 
+} 
+.fb1{   
+    background-color: black;
+    color: white;
+    height: 100px;
+    border: 2px solid white;
+    font-size: 30px;
+    text-align: center;   
+}
+.fb2{
+    background-color: aqua;
+    border: 2px solid white;
+    height: 100px;   
+}
+/* OTHER PAGE 1 IMG BACKGROUND */
+.bg{
+    background-image: url(7.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    min-height:60vh;
+} 
+@media only screen and (max-width: 625px){
+.AVE{
+    font-size: 120px;
+}
+.bkg {
+    width: 30px; 
+    
+}
+.bg{
+    
+    min-height: 30vh;
+    font-size:20px ;
+}
+.img2,.lkimg{
+    margin-top: 20px;
+}
+}
